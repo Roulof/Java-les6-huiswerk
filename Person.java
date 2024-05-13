@@ -60,6 +60,8 @@ public void addChild(Person child) { this.children.add(child); }
 public List<Pet> getPets() { return pets; }
 public void addPet(Pet pet) { this.pets.add(pet); }
 
+
+// For loop voor het toevoegen van grandchildren
 public List<Person> getGrandChildren() {
     List<Person> grandChildren = new ArrayList<>();
     for (Person child : children) {
